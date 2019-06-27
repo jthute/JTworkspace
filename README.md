@@ -44,11 +44,14 @@ Installation
 yarn add flow-to-typescript
 
 # Or, using NPM:
-npm install flow-to-typescript --save
+ npm install flow-to-typescript --save
 Usage
 CLI
 # Install globally
-yarn global add flow-to-typescript
+ yarn global add flow-to-typescript
+
+Now you can build your test files with a simple command in the console:
+ tsc --watch --project test/tsconfig.json
 
 # Compile a file (all of these are equivalent)
 flow2ts my/file.js.flow
