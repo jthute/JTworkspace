@@ -1,0 +1,29 @@
+Style Guide
+
+Go to start of metadata
+For Java developers, we're using the Google style guide. Please make sure that you set up your IDE to automatically apply the style standard before you save and submit your code. Instructions follow:
+
+Eclipse
+Guide credits: http://www.practicesofmastery.com/post/eclipse-google-java-style-guide/ 
+
+Download the Google Java Style guide definition for Eclipse
+The definition is https://github.com/google/styleguide/blob/gh-pages/eclipse-java-google-style.xml
+
+Add the Google Style formatter to Eclipse
+Open Eclipse. Go to Window →  Preferences
+In the search bar on the left, select Java → Code Style → Formatter
+Click 'Import" and find the XML file downloaded earlier
+Ensure the "GoogleStyle" profile is selected in the 'Active Profile' drop down
+Click OK
+
+Set Eclipse to automatically format your code when saving
+Still under Window → Preferences
+Select Java → Editor → Save Actions
+Check "Perform the selected actions on save":
+Format source code
+Format all lines
+Apply and OK
+
+
+Yer done!
+
